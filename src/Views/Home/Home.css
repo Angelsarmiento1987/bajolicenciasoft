@@ -1,0 +1,44 @@
+
+
+.contGralHome{
+
+    background-color: #1E1E1E;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lottieImg{
+    width: 300px;
+   
+}
+
+.titHome{
+    color: white;
+    font-size: 110px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+  
+    background: linear-gradient(270deg, #504343, #ca0303, #f1f1f1);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientShift 5s ease infinite;
+}
+
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.titHome2{
+    color: #5D6B75;
+    font-size: 40px;
+}

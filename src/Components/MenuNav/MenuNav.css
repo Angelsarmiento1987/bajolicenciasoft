@@ -1,0 +1,20 @@
+
+
+
+.mi-navbar{
+  background-color: black !important;
+  
+}
+
+.mi-navbar .nav-link {
+    color: white !important; /* o el color que quieras */
+}
+
+.logoTitulo{
+    color: white !important;
+}
+
+.logoImg{
+    width: 25px;
+    border-radius: 20px;
+}

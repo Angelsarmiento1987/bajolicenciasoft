@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Home } from './Views/Home/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";//uso hashrouter en lugar de browserroutes para que github lo reconozca cuando lo suba a otro host deberia poner browseer router o hacer la programacion para q reconozca la app cuando debe usar browser o hash dependiendo el entorno donde se deploye
+import { LecturaCancion } from './Views/LecturaCancion/LecturaCancion';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+       <Router >
+      <Routes>
+        <Route path="/" element={<Home />} />
+       
+      </Routes>
+      <Routes>
+        <Route path="/lecturacancion" element={<LecturaCancion />} />
+       
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

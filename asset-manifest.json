@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bajolicenciasoft/static/css/main.e5aeb430.css",
-    "main.js": "/bajolicenciasoft/static/js/main.aba71de8.js",
+    "main.js": "/bajolicenciasoft/static/js/main.fbc129e7.js",
     "static/media/bajolicencia.png": "/bajolicenciasoft/static/media/bajolicencia.03312e8086f342a23c05.png",
     "index.html": "/bajolicenciasoft/index.html",
     "main.e5aeb430.css.map": "/bajolicenciasoft/static/css/main.e5aeb430.css.map",
-    "main.aba71de8.js.map": "/bajolicenciasoft/static/js/main.aba71de8.js.map"
+    "main.fbc129e7.js.map": "/bajolicenciasoft/static/js/main.fbc129e7.js.map"
   },
   "entrypoints": [
     "static/css/main.e5aeb430.css",
-    "static/js/main.aba71de8.js"
+    "static/js/main.fbc129e7.js"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e5aeb430.css",
-    "main.js": "/static/js/main.6a0bab8b.js",
+    "main.js": "/static/js/main.7e27d218.js",
     "static/media/bajolicencia.png": "/static/media/bajolicencia.03312e8086f342a23c05.png",
     "index.html": "/index.html",
     "main.e5aeb430.css.map": "/static/css/main.e5aeb430.css.map",
-    "main.6a0bab8b.js.map": "/static/js/main.6a0bab8b.js.map"
+    "main.7e27d218.js.map": "/static/js/main.7e27d218.js.map"
   },
   "entrypoints": [
     "static/css/main.e5aeb430.css",
-    "static/js/main.6a0bab8b.js"
+    "static/js/main.7e27d218.js"
   ]
 }
